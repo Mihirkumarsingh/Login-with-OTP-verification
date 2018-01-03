@@ -1,7 +1,7 @@
 <?php
 session_start();
 //Your authentication key
-$authKey = "191191A941Ge9tPD5a4cded0";
+$authKey = "xxxxxxxxxxxxxxxxxxxxxxxxx";
 //Multiple mobiles numbers separated by comma
 $mobileNumber = $_POST["phone"];
 //Sender ID,While using route4 sender id should be 6 characters long.
