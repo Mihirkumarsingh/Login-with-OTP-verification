@@ -2,6 +2,10 @@
 
 <?php
 session_start();
+ session_start();
+if (isset($_SESSION['email']) == FALSE){
+     header("Location:index.php");
+} 
 function phpAlert($msg) {
     echo '<script type="text/javascript">alert("' . $msg . '")</script>';
 }
